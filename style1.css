@@ -1,0 +1,84 @@
+.contact-page {
+  padding: 80px 20px;
+  background-color: #0f0f0f;
+  color: #fff;
+  min-height: 100vh;
+}
+
+.contact-page h1 {
+  text-align: center;
+  font-size: 2.8em;
+  color:  #00f0ff;
+  margin-bottom: 10px;
+}
+
+.contact-page p {
+  text-align: center;
+  color: #ccc;
+  margin-bottom: 40px;
+  font-size: 1.1em;
+}
+
+.contact-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.contact-info {
+  flex: 1 1 300px;
+  font-size: 1.1em;
+  color: #ccc;
+}
+
+.contact-info p {
+  margin: 15px 0;
+}
+
+.contact-info i {
+  color: #00f0ff;
+  margin-right: 10px;
+}
+
+.contact-info a {
+  color:  #00f0ff;
+  text-decoration: none;
+}
+
+.contact-form {
+  flex: 1 1 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  font-size: 1em;
+  background-color: #1a1a1a;
+  color: #fff;
+  outline: none;
+}
+
+.contact-form button {
+  padding: 12px;
+  background-color:  #00f0ff;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  color: #000;
+  cursor: pointer;
+  transition: 0.3s ease;
+  box-shadow: 0 0 15px  #00f0ff;
+}
+
+.contact-form button:hover {
+  background-color: #134434;
+  color: #fff;
+}
